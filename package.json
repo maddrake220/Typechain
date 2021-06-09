@@ -1,0 +1,17 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maddrake220/Typechain.git",
+  "author": "maddrake220 <83238246+maddrake220@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "ts-node": "^10.0.0",
+    "tsc-watch": "^4.4.0",
+    "typescript": "^4.3.2"
+  }
+}
